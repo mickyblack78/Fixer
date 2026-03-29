@@ -12,6 +12,8 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Install and Run
+      - name: Permission
+        run: chmod +x gradlew
+      - name: Build
         run: ./gradlew assembleDebug
       
