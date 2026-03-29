@@ -1,1 +1,12 @@
-
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.mick.fixer'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.mick.fixer"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
