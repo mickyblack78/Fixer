@@ -1,6 +1,8 @@
 plugins { id 'com.android.application' }
 android {
-    namespace 'com.mick.fixer'
+    namespace 'com.mickyblack78.fixer'
+    ...
+        }
     compileSdk 34
     defaultConfig {
         applicationId "com.mick.fixer"
