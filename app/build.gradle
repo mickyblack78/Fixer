@@ -1,9 +1,11 @@
-plugins { id 'com.android.application' }
+plugins {
+    id 'com.android.application'
+}
+
 android {
-    namespace 'com.mickyblack78.fixer'
-    ...
-        }
+    namespace 'com.mick.fixer'
     compileSdk 34
+
     defaultConfig {
         applicationId "com.mick.fixer"
         minSdk 26
